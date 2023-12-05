@@ -1,0 +1,12 @@
+-- CREATE TABLE IF NOT EXISTS product(
+--     id SERIAL PRIMARY KEY,
+--     sku VARCHAR(50) UNIQUE NOT NULL,
+--     name VARCHAR(50) NOT NULL,
+--     price numeric NOT NULL,
+--     quantity bigint NOT NULL,
+--     created_at timestamp with time zone not null DEFAULT (now()),
+--     image VARCHAR(100) NOT NULL
+--     constraint price_gt_zero check(price > 0)
+--     constraint quantity_non_negative check(quantity >= 0)
+--     );
+--
